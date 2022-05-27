@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo UserName: $USER
+echo -n Date: ; date +"%D"
+echo -n Time: ; date +"%T"
+pwd
+echo -n Number of files: ; ls | wc -l
+echo -n biggest file: ; ls -S | head -n 2 | tail -n 1
+

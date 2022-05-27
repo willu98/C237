@@ -1,0 +1,11 @@
+#!/bin/sh
+cd ~/C237/scripts
+DATE=`date +'%Y%m%d'`
+BONUS=$(($RANDOM%10))
+declare -a arr
+
+NUMS=`shuf -i 1-50 -n 5`
+NUMS="${NUMS} ${BONUS}"
+
+echo $NUMS > lotto.$DATE
+

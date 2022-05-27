@@ -1,0 +1,30 @@
+#!/bin/sh
+DATE=`date +'%Y%m%d'`
+ 
+cd ~/C237/scripts
+
+declare -a arr
+declare -a arr2
+
+NUM=1
+CORRECT_COUNT=0
+
+for i in $(cat lotto.$DATE)
+do
+	arr[$NUM]=$i
+	NUM=$(($NUM + 1))
+done
+
+for i in {1..6}
+do
+	echo Enter Number:	
+	read num
+	if [[ ${num} -eq ${arr[$i]} ]]
+	then
+		echo correct
+		CORRECT_COUNT=$((CORRECT_COUNT+1))
+	else
+		echo incorrect
+	fi
+done
+echo you got ${CORRECT_COUNT} numbers right!
