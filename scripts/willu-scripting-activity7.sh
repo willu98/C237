@@ -1,18 +1,45 @@
 #!/bin/sh
+cd ~/C237/scripts
+
+IFS=$'\n'
 declare -a QUESTIONS
-declare -a ANSWERS
-cd ~/scripts
+
+
+
+#function cpFileToArray() {
+#	COUNTER=0	
+#	local txtFile=$1
+#	shift
+#}
+
 COUNTER=0
-cat a7_q.txt | while read line
-do	
-	QUESTIONS[$COUNTER]=$line
-	echo $[]
-	COUNTER=$(($COUNTER+1))
-done
-COUNTER=0
-cat a7_a.txt | while read line
+for i in $(cat a7_q.txt)
 do
-        ANSWERS[$COUNTER]=$line
+        QUESTIONS[$COUNTER]=$i
 	COUNTER=$(($COUNTER+1))
 done
-echo ${QUESTIONS[0]}
+COUNTER=0
+for i in $(cat a7_a.txt)
+do
+        ANSWERS[$COUNTER]=$i
+        COUNTER=$(($COUNTER+1))
+done
+
+len=${#QUESTIONS[@]}
+COUNTER=0
+echo Questionaire: True or False only \(case insensitive\)
+for ((i=0;i<$len;i++))
+do
+	read -p "${QUESTIONS[$i]}:" answer
+	answer=${answer,,}
+	if [[ $answer == ${ANSWERS[$i] } ]]
+	then
+		echo CORRECT
+		COUNTER=$(($COUNTER+1))
+	else
+		echo INCORRECT
+	fi
+done
+
+echo ${COUNTER}/${#QUESTIONS[@]} CORRECT
+
