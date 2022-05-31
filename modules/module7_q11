@@ -1,0 +1,1000 @@
+   35  git commit -m "is it working"
+   36  cd ..
+   37  $ git config --global user.email christophe.pisarski@outlook.com
+   38  cd c217_test
+   39  $ git config --global user.email christophe.pisarski@outlook.com
+   40  git config --global user.email "christophe.pisarski@outlook.com"
+   41  git commit -m "test
+   42  "
+   43  git push
+   44  clear
+   45  i=((1+1))
+   46  echo $i
+   47  i=(( 1+1 ))
+   48  i=(( 1 + 1 ))
+   49  i=$(( 1 + 1 ))
+   50  echo $i
+   51  i=`echo 1+1 | bc`
+   52  echo $i
+   53  ls -ltr
+   54  for line in test.file; do echo $line; done
+   55  for line in `cat test.file`; do echo $line; done
+   56  clear
+   57  ls -ltr
+   58  cd ..
+   59  ls -ltr
+   60  grep 39=1 fixlog20220406134843.log
+   61  clear
+   62  ls -ltr
+   63  rm -rf c217_test
+   64  git clone https://github.com/itspisarski/c217_test.git
+   65  ls -ltr
+   66  cd c217_test
+   67  git
+   68  git status
+   69  ls -ltr
+   70  git commit -m "test"
+   71  touch test3.file
+   72  git status
+   73  git add .
+   74  git status
+   75  git commit -m "test"
+   76  git push
+   77  ls -ltr
+   78  rm *
+   79  ls -ltr
+   80  cd ..
+   81  rm -rf c217_test
+   82  git clone https://github.com/itspisarski/c217_test.git
+   83  ls -ltr
+   84  cd c217_test
+   85  ls -ltr
+   86  git status
+   87  git add .
+   88  git commit -m "2nd commit"
+   89  git checkout -b mylocalbranch
+   90  git branch
+   91  cd
+   92  ksh
+   93  csh
+   94  exit
+   95  vi script.sh
+   96  cat script.sh
+   97  script.sh
+   98  pwd
+   99  echo $PATH
+  100  ls -ltr
+  101  ./script.sh
+  102  script.sh
+  103  chmod +x script.sh
+  104  ls -ltr
+  105  ./script.sh
+  106  vi script.sh
+  107  ./script.sh
+  108  vi script.sh
+  109  ls -ltr
+  110  touch "Good Luck Twice"
+  111  ls -ltr
+  112  cat Good Luck Twice
+  113  cat "Good Luck Twice"
+  114  vi script.sh
+  115  ./script.sh
+  116  echo $?
+  117  vi script.sh
+  118  ./script.sh HelloIamone HelloIamtwo
+  119  cat script.sh
+  120  vi script.sh
+  121  ./script.sh
+  122  vi script.sh
+  123  ./script.sh
+  124  ./script.sh 1 2 3 4 5 6
+  125  vi script.sh
+  126  ./script.sh
+  127  vi script.sh
+  128  ./script.sh
+  129  ./script.sh hello
+  130  ./script.sh hello twice
+  131  vi script.sh
+  132  ./script.sh
+  133  ls -ltr
+  134  cat logfile
+  135  ./script.sh correct run
+  136  ls -ltr
+  137  cat logfile
+  138  vi script.sh
+  139  ls test1343434
+  140  ls test1343434 | echo $?
+  141  ls test1343434 2> /dev/null | echo $?
+  142  ls test1343434 2> /dev/null
+  143  echo $?
+  144  vi while.loop.sh
+  145  read input
+  146  echo $input
+  147  read inputofmychoice
+  148  echo $inputofmychoice
+  149  vi while.sh
+  150  ./while.sh
+  151  chmod +x while.sh
+  152  ./while.sh
+  153  vi while.sh
+  154  ./while.sh
+  155  vi while.sh
+  156  i=1+1
+  157  echo $i
+  158  i=$((1+1))
+  159  echo $i
+  160  echo "1+1" | bc
+  161  bc
+  162  vi script.sh
+  163  ls -ltr
+  164  cat logfile
+  165  for i in `cat logfile`; do echo $i; done
+  166  cat cat logfile
+  167  cat logfile
+  168  while read line; do echo $line; done < logfile
+  169  cat logfile | while read line; do echo $line; done
+  170  ps -eaf 
+  171  ps -eaf | awk '{print$1}'
+  172  ps -eaf | awk '{print$2}'
+  173  ps -eaf 
+  174  vi logfile
+  175  cat logfile | while read line; do echo $line | awk '{print$2}'; done
+  176  cat logfile
+  177  ls -ltr
+  178  cat fixlog20220407141912.log | while read line; do echo $line | awk '{print$1}'; echo $line | awk '{print$2}'; done
+  179  cat fixlog20220407141912.log | while read line; do TAG1=`do echo $line | awk '{print$1}'`; TAG2=`echo $line | awk '{print$2}'`; echo $TAG1;$TAG2; done
+  180  cat fixlog20220407141912.log | while read line; do TAG1=`do echo $line | awk '{print$1}'`; TAG2=`echo $line | awk '{print$2}'`; echo " $TAG1 $TAG2"; done
+  181  cat fixlog20220407141912.log | while read line; do TAG1=`echo $line | awk '{print$1}'`; TAG2=`echo $line | awk '{print$2}'`; echo " $TAG1 $TAG2"; done
+  182  cat fixlog20220407141912.log | while read line; do TAG1=`echo $line | awk '{print$1}'`; TAG2=`echo $line | awk '{print$2}' | tr -d "="`; echo " $TAG1 $TAG2"; done
+  183  cat fixlog20220407141912.log | while read line; do TAG1=`echo $line | awk '{print$1}'`; TAG2=`echo $line | awk '{print$2}' | tr -d "35="`; echo " $TAG1 $TAG2"; done
+  184  vi scriptarray.sh
+  185  ls -ltr
+  186  cd c217_test
+  187  ls -ltr
+  188  cd ..
+  189  cd c217_test
+  190  ls -ltr
+  191  mkdir activity1
+  192  ls -ltr
+  193  cd
+  194  ls -ltr
+  195  grep RANDOM FixGenerator.sh
+  196  echo $USERNAME
+  197  env | grep USER
+  198  echo $USER
+  199  date
+  200  date +'%Y%m%D'
+  201  ls -ltr
+  202  vi while.sh
+  203  ./while.sh
+  204  vi while.sh
+  205  ./while.sh
+  206  ls -ltr
+  207  touch logdate.log
+  208  ls -ltr *.sh
+  209  for i in `ls`
+  210  ls | while read line; do echo $i; done
+  211  ls | while read line; do echo $line; done
+  212  ls -ltr
+  213  mkdir Activity2
+  214  cd Activity2
+  215  ls -ltr
+  216  touch script.sh
+  217  mkdir log
+  218  cd log
+  219  ls -ltr
+  220  pwd
+  221  touch file1 file2 file3
+  222  ls -ltr
+  223  cd ..
+  224  ls
+  225  ls log
+  226  ls log | while read line; do echo $line; done
+  227  ls
+  228  cd
+  229  ls -ltr
+  230  cd Training*
+  231  ls -ltr
+  232  cd ksh
+  233  ls -ltr
+  234  cd ..
+  235  cd sql
+  236  ls -ltr
+  237  cd ..
+  238  ls -ltr
+  239  cd python
+  240  ls -ltr
+  241  cd ..
+  242  cd cfg
+  243  ls -ltr
+  244  cat properties.cfg
+  245  cd
+  246  ls -ltr
+  247  cd
+  248  cd Activity2
+  249  ls -ltr
+  250  if [ $# -eq 0 ]; then echo "houston we have "; exit 1; else echo "you choosed $1"
+  251  man du
+  252  man grep
+  253  ls -ltr | grep -i training
+  254  cd
+  255  ls -ltr | grep -i training
+  256  ls
+  257  ls | while read line; do echo $line; done
+  258  ls -ltr
+  259  cd Activity2
+  260  ls -ltr
+  261  cd log
+  262  ls -ltr
+  263  ls | while read line; do echo $line; done
+  264  ls | while read line; do mv $line $line.addition; done
+  265  ls -ltr
+  266  ls | while read line; do mv $line $line.addition; done
+  267  ls -ltr
+  268  ls | while read line; do mv $line $line.addition; done
+  269  ls -ltr
+  270  ls | while read line; do if [ $line == "something ]
+  271  then
+  272  echo "something"
+  273  else
+  274  echo "optional else"
+  275  for i in `ls`; do echo $i; done
+  276  cd
+  277  mkdir activity3
+  278  cd activity3
+  279  ls -ltr
+  280  cd
+  281  ls -ltr
+  282  grep RANDOM FixGenerator.sh
+  283  SIDE="`echo $((1 + RANDOM % 2))`"
+  284  echo $SIDE
+  285  SIDE="`echo $((1 + RANDOM % 2))`"
+  286  echo $SIDE
+  287  echo $((1 + RANDOM % 2))
+  288  echo $(( RANDOM % 2))
+  289  echo $((1 + RANDOM % 50))
+  290  echo $((1 + RANDOM % 10))
+  291  read
+  292  read line
+  293  echo $line
+  294  cd Activity3
+  295  cd activity3
+  296  ls -ltr
+  297  vi script.sh
+  298  ls -ltr
+  299  cd activity3
+  300  ls -ltr
+  301  vi script.sh
+  302  read input
+  303  echo $input | grep [a-z]
+  304  echo $input | grep [0-9]
+  305  cd ..
+  306  mkdir activity7
+  307  cd activity
+  308  cd activity7
+  309  vi script.sh
+  310  touch questions.txt
+  311  echo "Madrid is the best soccer team" >> questions.txt
+  312  echo "Faker is the best LoL player" >> questions.txt
+  313  ls -ltr
+  314  cat questions.txt
+  315  cat questions.txt | while read line; do echo $line; done
+  316  cat questions.txt | while read line; do echo $line; read input
+  317  echo hello | cut -c 1-2
+  318  echo hello | awk '{print$1}'
+  319  echo "Madrid is the best soccer team" | awk '{print$1}'
+  320  echo "Madrid is the best soccer team" | awk '{print$1,$2}'
+  321  echo "Madrid is the best soccer team" | awk '{print$1,$5}'
+  322  vi questions.txt
+  323  cat questions.txt
+  324  echo "Madrid is the best soccer team?;F" | awk -F';' '{print$1}'
+  325  echo "Madrid is the best soccer team?;F" | awk -F';' '{print$2}'
+  326  ANSWER=`echo "Madrid is the best soccer team?;F" | awk -F';' '{print$2}'`
+  327  QUESTION=`echo "Madrid is the best soccer team?;F" | awk -F';' '{print$1}'`
+  328  echo $ANSWER
+  329  echo $QUESTION
+  330  cat questions.txt | while read line; do ANSWER=`echo $line | awk -F';' '{print$2}'`; QUESTION=`echo $line | awk -F';' '{print$1}'`; echo $QUESTION; echo $ANSWER; done
+  331  cd ..
+  332  vi Activity8
+  333  mkdir Activity8
+  334  cd Activity8
+  335  vi script.sh
+  336  vi script,sh
+  337  vi script.sh
+  338  ls -ltr
+  339  echo "test? Y" > questions.txt
+  340  echo "test2? N" >> questions.txt
+  341  cat script.sh
+  342  chmod +x script.sh
+  343  ./script.sh
+  344  vi script,sh
+  345  vi script.sh
+  346  ./script.sh
+  347  vi script.sh
+  348  ./script.sh
+  349  vi script.sh
+  350  ./script.sh
+  351  vi script.sh
+  352  ./script.sh
+  353  ls -ltr 
+  354  ls -ltr
+  355  cat script.sh
+  356  cp -p script.sh script2.sh
+  357  vi script2.sh
+  358  ./script2.sh
+  359  vi script2.sh
+  360  for line in `cat questions.txt`; do echo $line; done
+  361  cat questions.txt
+  362  cd
+  363  cd Activity3
+  364  cd activity3
+  365  ls -ltr
+  366  vi script.sh
+  367  echo 1 > lottery
+  368  echo 3 > lottery
+  369  echo 23 >>
+  370  echo 23 >> lottery
+  371  echo 37 >> lottery
+  372  ls -ltr
+  373  cat 
+  374  cat *
+  375  cp -p lottery user
+  376  ls -ltr
+  377  diff user lottery
+  378  vi lottery
+  379  diff user lottery
+  380  comm -12 user lottery
+  381  cat *
+  382  ls -tlr
+  383  ls -ltr
+  384  vi lottery
+  385  cat lottery | sort 
+  386  comm -12 user lottery
+  387  grep 10 lottery
+  388  echo $?
+  389  grep 100 lottery
+  390  echo $?
+  391  grep 3 lottery
+  392  read input
+  393  cd
+  394  ls -ltr
+  395  cd Train*
+  396  ls -ltr
+  397  cd python
+  398  ls -ltr
+  399  cat json_convert.py
+  400  cd ..
+  401  ls -ltr
+  402  cd sql
+  403  cat *
+  404  cd
+  405  ls -ltr
+  406  cd Train*
+  407  ls -ltr
+  408  cd ksh
+  409  ls -ltr
+  410  cd misc
+  411  ls -ltr
+  412  cat matrix.sh
+  413  ./matrix.sh
+  414  ls -ltr
+  415  ./matrix_bruxy.sh
+  416  clear
+  417  cat ./matrix_bruxy.sh
+  418  ./matrix_bruxy.sh
+  419  clear
+  420  ls -ltr
+  421  clear
+  422  ls -ltr
+  423  ./matrix_bruxy.sh
+  424  clear
+  425  ls -ltr
+  426  vi testscript.sh
+  427  chmod +x testscript.sh
+  428  ./testscript.sh
+  429  cat testscript.sh
+  430  vi testscript.sh
+  431  ls -ltr
+  432  cat passwordfile
+  433  cat testscript.sh
+  434  ls -ltr
+  435  ./testscript.sh
+  436  vi testscript.sh
+  437  ls -ltr
+  438  cat passwordfile
+  439  vi testscript.sh
+  440  ./testscript.sh
+  441  vi testscript.sh
+  442  ./testscript.sh
+  443  vi testscript.sh
+  444  ps
+  445  sleep 500 &
+  446  ps -eaf | grep sleep
+  447  cd /proc
+  448  ls -ltr
+  449  cd fd
+  450  cd 21941
+  451  pwd
+  452  ls -ltr
+  453  cd fd
+  454  ls -ltr
+  455  cat 1
+  456  kill 21941
+  457  pwd
+  458  cd ..
+  459  cdf
+  460  cd
+  461  sleep 300
+  462  sleep 300 &
+  463  echo $!
+  464  sleep 10 &
+  465  cd /proc/$!/fd
+  466  cat 1
+  467  pwd
+  468  ls -ltr
+  469  ls
+  470  cd ..
+  471  ls -ltra
+  472  cd
+  473  ls
+  474  pwd
+  475  ls logdate.log
+  476  ls logdate.log test.txt test2
+  477  ls -l
+  478  ls -l logdate.log
+  479  ls -ltr
+  480  ls -l
+  481  man ls
+  482  ls -a
+  483  ls
+  484  ls -ltr
+  485  ls -ltra
+  486  ls
+  487  which ls
+  488  ls
+  489  bcp
+  490  git
+  491  which git
+  492  env 
+  493  which ls
+  494  ls -ltr
+  495  echo $PATH
+  496  pwd
+  497  cd ..
+  498  pwd
+  499  cd
+  500  ls -ltr
+  501  cat passwordfile
+  502  grep test passwordfile
+  503  ls-l
+  504  cd
+  505  pwd
+  506  cd ..
+  507  cd
+  508  pwd
+  509  ls -ltr
+  510  cd activit3
+  511  cd activity3
+  512  cd Activity8
+  513  pwd
+  514  ls
+  515  cd /home/ec2-user/Activity8
+  516  cd ..
+  517  ks
+  518  ls
+  519  cd activity3
+  520  ls 
+  521  cd ~
+  522  cd /
+  523  ls
+  524  touch file
+  525  cd
+  526  pwd
+  527  touch file
+  528  ls
+  529  pwd
+  530  cd ..
+  531  pwd
+  532  ls
+  533  cd -
+  534  cd /home/ec2-user/Activity8
+  535  cd -
+  536  ls -ltr
+  537  cd TrainingLabProject
+  538  ls -ltr
+  539  mkdir tmp
+  540  ls -ltr
+  541  cd tmp
+  542  pwd
+  543  cd -
+  544  cd /tmp
+  545  pwd
+  546  cd -
+  547  cd tmp
+  548  pwd
+  549  cd -
+  550  cd /home/ec2-user/TrainingLabProject/tmp
+  551  pwd
+  552  cd ../../Activity8
+  553  pwd
+  554  cd
+  555  ls -ltr
+  556  ls a*
+  557  ls f*
+  558  ls activity7/questions.txt
+  559  history
+  560  uname
+  561  uname -a
+  562  ls -l
+  563  echo hello
+  564  echo hello > newfilecreated
+  565  cat newfilecreated
+  566  rm newfilecreated
+  567  mkdir newdirectory
+  568  rm newdirectory
+  569  cd newdirectory
+  570  touch file
+  571  cd ..
+  572  rmdir newdirectory
+  573  rm -rf newdirectory
+  574  ls -ltra
+  575  find txt
+  576  find . -name "txt" 
+  577  find . -name "*txt" 
+  578  env
+  579  echo $HOME
+  580  VARIABLE=123 123 123
+  581  echo $VARIABLE
+  582  VARIABLE=123
+  583  echo $VARIABLE
+  584  ls -ltra .bash*
+  585  cat .bashrc
+  586  VARIABLE2=ls
+  587  echo $ls
+  588  echo $VARIABLE2
+  589  $VARIABLE2
+  590  VARIABLE2=`ls`
+  591  echo $VARIABLE2
+  592  $VARIABLE2
+  593  VARIABLE3=$(ls)
+  594  echo $VARIABLE3
+  595  VARIABLE3=$(ls error.log)
+  596  echo $VARIABLE3
+  597  echo $VARIABLE3 | wc -l
+  598  echo $VARIABLE3
+  599  wc -l error.log
+  600  VARIABLE3=$(ls error.log | wc -l)
+  601  echo $VARIABLE3
+  602  echo $($VARIABLE3)
+  603  1
+  604  PATH=$PATH:/execlocatio
+  605  echo $PATH
+  606  ls -ltr
+  607  chmod -x testscript.sh
+  608  ls -ltr testscript.sh
+  609  ./testscript.sh
+  610  cd
+  611  cd /
+  612  ls -ltr
+  613  cd boot
+  614  touch file
+  615  cd
+  616  pwd
+  617  yum update
+  618  sudo yum update
+  619  cd
+  620  cd /
+  621  history > module1
+  622  pwd
+  623  cd /var
+  624  pwd
+  625  cd
+  626  history > module1
+  627  ls -ltr
+  628  ls -ltr
+  629  cat passwordfile
+  630  less passwordfile
+  631  less module1
+  632  tail -10 module1
+  633  more passwordfile
+  634  more module1
+  635  ls -lt
+  636  head -5 myfile
+  637  ls -ltr pass*
+  638  cat passwordfile
+  639  cat module1 | head -1
+  640  head -1 module1
+  641  cat module1 | wc -l
+  642  cat passwordfile | wc -l
+  643  cat module1 > passwordfile
+  644  head -5 passwordfile
+  645  grep test123Q passwordfile
+  646  echo test123Q >> passwordfile
+  647  grep test123Q passwordfile
+  648  cat passwordfile | grep test
+  649  read input
+  650  echo $input
+  651  echo $input | grep [0-9]
+  652  input=hello123
+  653  echo $input | grep [0-9]
+  654  date
+  655  date +'%Y%m%d'
+  656  DATE=date +'%Y%m%d'
+  657  echo $DATE
+  658  DATE=`date +'%Y%m%d'`
+  659  echo $DATE
+  660  touch file.$DATE.log
+  661  ls file.*
+  662  ls -ltr
+  663  mv module1 TrainingLabProject
+  664  cd TrainingLabProject
+  665  ls module1
+  666  cd ..
+  667  ls module1
+  668  cd ..
+  669  cd -
+  670  cd Train*
+  671  mv module1 module3
+  672  ls module1
+  673  ls module3
+  674  less module3
+  675  ls -ltr
+  676  cp README.md README.md.bkp
+  677  ls
+  678  ls -ltr
+  679  ls -ltrh
+  680  cp -p README.md README.md.bkp.2
+  681  ls -ltr
+  682  cd /var
+  683  ls -ltr
+  684  cd
+  685  ls -ltr
+  686  grep test passwordfile
+  687  grep test passwordfile | wc -l
+  688  cd ..
+  689  cd ~
+  690  vi FixGenerator.sh
+  691  vi test.hdfkhdskf
+  692  chmod +x test.hdfkhdskf
+  693  ./test.hdfkhdskf &
+  694  ls -ltr
+  695  less fixlog20220518173509.log
+  696  vi test.hdfkhdskf
+  697  sleep 5
+  698  vi test.hdfkhdskf
+  699  ls -ltr
+  700  cat fixlog20220518173509.log
+  701  ls -ltr
+  702  ls -ltr F*
+  703  ./FixGenerator.sh 
+  704  ls -ltr
+  705  ./test.hdfkhdskf &
+  706  ls -ltr
+  707  ps -eaf | grep Fix
+  708  ps
+  709  ps -eaf | grep test
+  710  kill 28999
+  711  ps -eaf | grep test
+  712  ls -ltr
+  713  grep D fixlog20220518173509.log
+  714  cd ..
+  715  vi test
+  716  cd ~
+  717  vi test
+  718  vi hgkdlgs
+  719  ls -ltr
+  720  mkdir MyDirectory
+  721  ls -ltr
+  722  cat fixlog20220518174043.log
+  723  cd /
+  724  history > module.20220701
+  725  cd ~
+  726  history > module.20220701
+  727  cat module.20220701
+  728  cd ~
+  729  vi fixGenerator.sh
+  730  chmod 744 fixGenerator.sh
+  731  ./fixGenerator.sh &
+  732  cd /var
+  733  history > module13789
+  734  pwd
+  735  cd ..
+  736  pwd
+  737  ls -l
+  738  cd `
+  739  cd ~
+  740  history > module13789
+  741  ls -ltr
+  742  grep NT fixlog20220518184839.log
+  743  ls -ltr
+  744  less fixlog20220518184839.log
+  745  sleep 10 &
+  746  ps -eaf | grep ec2-user
+  747  cd logs
+  748  cd .
+  749  cd ..
+  750  ls
+  751  ps -ef
+  752  who
+  753  echo $USER
+  754  w
+  755  ps -ef | grep ec2-user
+  756  ps -ef
+  757  ps -u {ec2-user}
+  758  man ps
+  759  ps -eaf | grep ec2-user
+  760  ps -ef | grep ec2-user
+  761  ps -eaf | grep ec2-user
+  762  ps -efl | grep ec2-user
+  763  ps -ef
+  764  clear
+  765  ps -ef
+  766  clear
+  767  ps -fu | grep ec2-user
+  768  ps -fu 
+  769  ps -efl | grep ec2-user
+  770  clear
+  771  ps -efl | grep ec2-user
+  772  ps -ef user | grep ec2-user
+  773  ps -ef UID 
+  774  ps -ef UID | grep ec2-user
+  775  man os
+  776  man ps
+  777  ps -U ec2-user
+  778  ps -eaU ec2-user
+  779  ps -ef ec2-user
+  780  ps -uef ec2-user
+  781  ps -euf ec2-user
+  782  ps -eUf ec2-user
+  783  ps -eau ec2-user
+  784  ps -U ec2-user
+  785  ps -eaf
+  786  ps -U ec2-user
+  787  ps -efl | grep ec2-user
+  788  ps -efl | grep -i ec2-user
+  789  ps -efl | grep -v ec2-user
+  790  top
+  791  top -U ec2-user
+  792  ps -ef f
+  793  pstree 
+  794  pstree  -shapu
+  795  ps -ef f
+  796  ps -ef 
+  797  clear
+  798  ps -ef 
+  799  ps  
+  800  ps -efo uid, pid, cmd
+  801  man ps
+  802  ps -eo pid
+  803  ps -eo pid, uid
+  804  ps -eo pid, user
+  805  man ps
+  806  ps -Ao pid, user
+  807  ps -ef -O %uid
+  808  ps -ef 
+  809  ps -ef -o %uid,pid,cmd
+  810  ps -ef -o %UID,PID,CMD
+  811  ps -ef 
+  812  ps -o pid
+  813  ps -efo pid
+  814  ps -efo pid, uid
+  815  ps -efo pid -o uid -o cmd
+  816  ps -ef -o pid -o uid -o cmps -eo user,pid,ppid,stat,cmd|egrep "(CMD|$$)"
+  817  ps -eo user,pid,ppid,stat,cmd|egrep "(CMD|$$)"
+  818  ps -eo user,pid,cmd|egrep "(CMD|$$)"
+  819  ps -eo user,pid,cmd
+  820  man ps
+  821  mkdir modules
+  822  ls
+  823  cd modules/
+  824  ls
+  825  cd ..
+  826  ls
+  827  pwd
+  828  cd ~
+  829  ls
+  830  ps -eo pid > list
+  831  cat list
+  832  sleep 300 &
+  833  ps -ef | grep 18400
+  834  ps -ef | grep sleep 300
+  835  ps -ef | grep "sleep 300"
+  836  kill 18400
+  837  ps -ef | grep "sleep 300"
+  838  ps -ef | grep 18400
+  839  top
+  840  top -U root
+  841  top
+  842  top -U root
+  843  top -u root
+  844  top
+  845  ping yahoo.com
+  846  tracerroute yahoo.com > yahoo.route
+  847  traceroute yahoo.com > yahoo.route
+  848  cat yahoo.route 
+  849  cat yahoo.route | less
+  850  netstat -a | less
+  851  ps -ef|grep $USER
+  852  ps -ef | grep $USER -i | grep -v root
+  853  ls
+  854  cat route
+  855  cat yahoo.route 
+  856  ln -s yahoo.route route
+  857  ls -l
+  858  ls -l route
+  859  netstat -a > output
+  860  mkdir network
+  861  cat route 
+  862  mv yahoo.route output network
+  863  cd network/
+  864  ls
+  865  cd ..
+  866  cat route
+  867  ls -l
+  868  ls route
+  869  mv route network
+  870  cd network/
+  871  ls
+  872  cat route
+  873  ifconfig -a
+  874  ls modules
+  875  ls
+  876  cd ..
+  877  ls modules
+  878  ls -l
+  879  ls -l modules
+  880  History > modules/willu.20221905.module6
+  881  history > modules/willu.20221905.module6
+  882  cd modules/
+  883  ls
+  884  cat willu.20221905.module6 
+  885  quit
+  886  ls -ltr
+  887  less fixlog20220518184839.log
+  888  ls -ltr
+  889  ps
+  890  man ps
+  891  ps -eaf 
+  892  ps -aux
+  893  ps -eaf | grep ec2-user
+  894  ps -eaf | head 5
+  895  ps -eaf | head -5
+  896  sleep 100 &
+  897  ps -eaf | grep 12689
+  898  sleep 400
+  899  sleep 100 &
+  900  %fg 1
+  901  fg %1
+  902  sleep 100 &
+  903  fg %1
+  904  fg %2
+  905  sleep 100
+  906  ps -eaf | grep sleep
+  907  pstree 12706
+  908  ㎰
+  909  ps -eaf 
+  910  pstree 0
+  911  ls
+  912  echo $?
+  913  ls dhfkifdjsghk
+  914  echo $?
+  915  ls dhjfkhdfk | echo $?
+  916  ls -ltr
+  917  cat module.20220701
+  918  cat module.20220701 | grep history
+  919  cat module.20220701 | grep history | tr -d "module"
+  920  cat module.20220701 | grep history | tr -d "module" | cut -c 1-3
+  921  cat module.20220701 | grep history | tr -d "module" | cut -c 1-34
+  922  cat module.20220701 | grep history | tr -d "module" | cut -c 23-34
+  923  cat module.20220701
+  924  echo "1099  history > module.20220701" | grep history
+  925   
+  926  top
+  927  ping google.com
+  928  traceroute google.com
+  929  ifconfig
+  930  ping google.com
+  931  netstat
+  932  netstat | grep 12343
+  933  ls- ltr
+  934  ls -ltr
+  935  cd TrainingLabProject
+  936  ls -ltr
+  937  cd logs
+  938  ls -ltr
+  939  cd
+  940  df -h
+  941  cd /
+  942  ls -ltr
+  943  du -h
+  944  ls
+  945  du -sh *
+  946  du -sh 
+  947  cd
+  948  ls -ltr
+  949  du -sh MyDirectory
+  950  du -sh TrainingLabProject
+  951  cd TrainingLabProject
+  952  du -h
+  953  du | sort
+  954  df
+  955  cd ./workdir
+  956  ls -ltr
+  957  cat crypto20220116_204631.cfg
+  958  ls -ltr
+  959  gzip crypto20220116_204652.cfg
+  960  ls -ltr
+  961  cat crypto20220116_204652.cfg.gz
+  962  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+  963  ls -ltr
+  964  gzcat crypto20220116_204652.cfg.gz
+  965  zcat crypto20220116_204652.cfg.gz
+  966  ls -ltr
+  967  tar -cvf MyArchive.tar crypto20220116_204644.cfg crypto20220116_204631.cfg 
+  968  ls -ltr
+  969  gzip MyArchive.tar
+  970  ls -ltr
+  971  tar -czvf Myarchive.tar.gz crypto20220116_204644.cfg crypto20220116_204631.cfg 
+  972  ls -ltr
+  973  gzip *
+  974  ls -ltr
+  975  cd JSON
+  976  cd ..
+  977  gunzip MyArchive.tar.gz
+  978  ls -ltr
+  979  tar -xvf MyArchive.tar
+  980  ls -ltr
+  981  rm MyArchive.tar
+  982  tar -cvf MyArchive.tar crypto20220116_204644.cfg crypto20220116_204631.cfg
+  983  ls -ltr
+  984  tar -xvf MyArchive.tar
+  985  ls -ltr
+  986  tar -xvf MyArchive.tar
+  987  echo $?
+  988  ls -ltr
+  989  cat Myarchive.tar.gz
+  990  cd
+  991  ls -ltr
+  992  vi myfilethatiwant
+  993  less fixlog20220518184839.log
+  994  vi avengers
+  995  vi avengers2
+  996  cat avengers2 | wc -l
+  997  wc -l avengers2
+  998  vi avengers2
+  999  netstat -a
+ 1000  netstat -h
+ 1001  df
+ 1002  df -h
+ 1003  df -h > filesystem.usage
+ 1004  du
+ 1005  clear
+ 1006  du ~ -sh
+ 1007  du ~ -sh > disk.usage
+ 1008  ls
+ 1009  cd mod
+ 1010  cd modules/
+ 1011  ls
+ 1012  cat willu.20221905.module6 
+ 1013  du -ah > usage2
+ 1014  du /var -sh
+ 1015  du ~ -Lch
+ 1016  clear
+ 1017  du ~ -Lch
+ 1018  mkdir disk
+ 1019  cd disk
+ 1020  touch test1.txt
+ 1021  touch test2.txt
+ 1022  nano test1.txt 
+ 1023  cat test1.txt 
+ 1024  nano test2
+ 1025  nano test2.txt 
+ 1026  cat test2.txt 
+ 1027  claer
+ 1028  clear
+ 1029  tar -cvf disk.tar ./
+ 1030  ls
+ 1031  history > ../modules/module7_q11
+ 1032  cd ..
+ 1033  ls
+ 1034  history > module7_q11

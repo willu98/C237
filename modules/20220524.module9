@@ -1,0 +1,1000 @@
+   38  cd ..
+   39  cd
+   40  pwd
+   41  ls -ltr
+   42  cd activit3
+   43  cd activity3
+   44  cd Activity8
+   45  pwd
+   46  ls
+   47  cd /home/ec2-user/Activity8
+   48  cd ..
+   49  ks
+   50  ls
+   51  cd activity3
+   52  ls 
+   53  cd ~
+   54  cd /
+   55  ls
+   56  touch file
+   57  cd
+   58  pwd
+   59  touch file
+   60  ls
+   61  pwd
+   62  cd ..
+   63  pwd
+   64  ls
+   65  cd -
+   66  cd /home/ec2-user/Activity8
+   67  cd -
+   68  ls -ltr
+   69  cd TrainingLabProject
+   70  ls -ltr
+   71  mkdir tmp
+   72  ls -ltr
+   73  cd tmp
+   74  pwd
+   75  cd -
+   76  cd /tmp
+   77  pwd
+   78  cd -
+   79  cd tmp
+   80  pwd
+   81  cd -
+   82  cd /home/ec2-user/TrainingLabProject/tmp
+   83  pwd
+   84  cd ../../Activity8
+   85  pwd
+   86  cd
+   87  ls -ltr
+   88  ls a*
+   89  ls f*
+   90  ls activity7/questions.txt
+   91  history
+   92  uname
+   93  uname -a
+   94  ls -l
+   95  echo hello
+   96  echo hello > newfilecreated
+   97  cat newfilecreated
+   98  rm newfilecreated
+   99  mkdir newdirectory
+  100  rm newdirectory
+  101  cd newdirectory
+  102  touch file
+  103  cd ..
+  104  rmdir newdirectory
+  105  rm -rf newdirectory
+  106  ls -ltra
+  107  find txt
+  108  find . -name "txt" 
+  109  find . -name "*txt" 
+  110  env
+  111  echo $HOME
+  112  VARIABLE=123 123 123
+  113  echo $VARIABLE
+  114  VARIABLE=123
+  115  echo $VARIABLE
+  116  ls -ltra .bash*
+  117  cat .bashrc
+  118  VARIABLE2=ls
+  119  echo $ls
+  120  echo $VARIABLE2
+  121  $VARIABLE2
+  122  VARIABLE2=`ls`
+  123  echo $VARIABLE2
+  124  $VARIABLE2
+  125  VARIABLE3=$(ls)
+  126  echo $VARIABLE3
+  127  VARIABLE3=$(ls error.log)
+  128  echo $VARIABLE3
+  129  echo $VARIABLE3 | wc -l
+  130  echo $VARIABLE3
+  131  wc -l error.log
+  132  VARIABLE3=$(ls error.log | wc -l)
+  133  echo $VARIABLE3
+  134  echo $($VARIABLE3)
+  135  1
+  136  PATH=$PATH:/execlocatio
+  137  echo $PATH
+  138  ls -ltr
+  139  chmod -x testscript.sh
+  140  ls -ltr testscript.sh
+  141  ./testscript.sh
+  142  cd
+  143  cd /
+  144  ls -ltr
+  145  cd boot
+  146  touch file
+  147  cd
+  148  pwd
+  149  yum update
+  150  sudo yum update
+  151  cd
+  152  cd /
+  153  history > module1
+  154  pwd
+  155  cd /var
+  156  pwd
+  157  cd
+  158  history > module1
+  159  ls -ltr
+  160  ls -ltr
+  161  cat passwordfile
+  162  less passwordfile
+  163  less module1
+  164  tail -10 module1
+  165  more passwordfile
+  166  more module1
+  167  ls -lt
+  168  head -5 myfile
+  169  ls -ltr pass*
+  170  cat passwordfile
+  171  cat module1 | head -1
+  172  head -1 module1
+  173  cat module1 | wc -l
+  174  cat passwordfile | wc -l
+  175  cat module1 > passwordfile
+  176  head -5 passwordfile
+  177  grep test123Q passwordfile
+  178  echo test123Q >> passwordfile
+  179  grep test123Q passwordfile
+  180  cat passwordfile | grep test
+  181  read input
+  182  echo $input
+  183  echo $input | grep [0-9]
+  184  input=hello123
+  185  echo $input | grep [0-9]
+  186  date
+  187  date +'%Y%m%d'
+  188  DATE=date +'%Y%m%d'
+  189  echo $DATE
+  190  DATE=`date +'%Y%m%d'`
+  191  echo $DATE
+  192  touch file.$DATE.log
+  193  ls file.*
+  194  ls -ltr
+  195  mv module1 TrainingLabProject
+  196  cd TrainingLabProject
+  197  ls module1
+  198  cd ..
+  199  ls module1
+  200  cd ..
+  201  cd -
+  202  cd Train*
+  203  mv module1 module3
+  204  ls module1
+  205  ls module3
+  206  less module3
+  207  ls -ltr
+  208  cp README.md README.md.bkp
+  209  ls
+  210  ls -ltr
+  211  ls -ltrh
+  212  cp -p README.md README.md.bkp.2
+  213  ls -ltr
+  214  cd /var
+  215  ls -ltr
+  216  cd
+  217  ls -ltr
+  218  grep test passwordfile
+  219  grep test passwordfile | wc -l
+  220  cd ..
+  221  cd ~
+  222  vi FixGenerator.sh
+  223  vi test.hdfkhdskf
+  224  chmod +x test.hdfkhdskf
+  225  ./test.hdfkhdskf &
+  226  ls -ltr
+  227  less fixlog20220518173509.log
+  228  vi test.hdfkhdskf
+  229  sleep 5
+  230  vi test.hdfkhdskf
+  231  ls -ltr
+  232  cat fixlog20220518173509.log
+  233  ls -ltr
+  234  ls -ltr F*
+  235  ./FixGenerator.sh 
+  236  ls -ltr
+  237  ./test.hdfkhdskf &
+  238  ls -ltr
+  239  ps -eaf | grep Fix
+  240  ps
+  241  ps -eaf | grep test
+  242  kill 28999
+  243  ps -eaf | grep test
+  244  ls -ltr
+  245  grep D fixlog20220518173509.log
+  246  cd ..
+  247  vi test
+  248  cd ~
+  249  vi test
+  250  vi hgkdlgs
+  251  ls -ltr
+  252  mkdir MyDirectory
+  253  ls -ltr
+  254  cat fixlog20220518174043.log
+  255  cd /
+  256  history > module.20220701
+  257  cd ~
+  258  history > module.20220701
+  259  cat module.20220701
+  260  cd ~
+  261  vi fixGenerator.sh
+  262  chmod 744 fixGenerator.sh
+  263  ./fixGenerator.sh &
+  264  cd /var
+  265  history > module13789
+  266  pwd
+  267  cd ..
+  268  pwd
+  269  ls -l
+  270  cd `
+  271  cd ~
+  272  history > module13789
+  273  ls -ltr
+  274  grep NT fixlog20220518184839.log
+  275  ls -ltr
+  276  less fixlog20220518184839.log
+  277  sleep 10 &
+  278  ps -eaf | grep ec2-user
+  279  cd logs
+  280  cd .
+  281  cd ..
+  282  ls
+  283  ps -ef
+  284  who
+  285  echo $USER
+  286  w
+  287  ps -ef | grep ec2-user
+  288  ps -ef
+  289  ps -u {ec2-user}
+  290  man ps
+  291  ps -eaf | grep ec2-user
+  292  ps -ef | grep ec2-user
+  293  ps -eaf | grep ec2-user
+  294  ps -efl | grep ec2-user
+  295  ps -ef
+  296  clear
+  297  ps -ef
+  298  clear
+  299  ps -fu | grep ec2-user
+  300  ps -fu 
+  301  ps -efl | grep ec2-user
+  302  clear
+  303  ps -efl | grep ec2-user
+  304  ps -ef user | grep ec2-user
+  305  ps -ef UID 
+  306  ps -ef UID | grep ec2-user
+  307  man os
+  308  man ps
+  309  ps -U ec2-user
+  310  ps -eaU ec2-user
+  311  ps -ef ec2-user
+  312  ps -uef ec2-user
+  313  ps -euf ec2-user
+  314  ps -eUf ec2-user
+  315  ps -eau ec2-user
+  316  ps -U ec2-user
+  317  ps -eaf
+  318  ps -U ec2-user
+  319  ps -efl | grep ec2-user
+  320  ps -efl | grep -i ec2-user
+  321  ps -efl | grep -v ec2-user
+  322  top
+  323  top -U ec2-user
+  324  ps -ef f
+  325  pstree 
+  326  pstree  -shapu
+  327  ps -ef f
+  328  ps -ef 
+  329  clear
+  330  ps -ef 
+  331  ps  
+  332  ps -efo uid, pid, cmd
+  333  man ps
+  334  ps -eo pid
+  335  ps -eo pid, uid
+  336  ps -eo pid, user
+  337  man ps
+  338  ps -Ao pid, user
+  339  ps -ef -O %uid
+  340  ps -ef 
+  341  ps -ef -o %uid,pid,cmd
+  342  ps -ef -o %UID,PID,CMD
+  343  ps -ef 
+  344  ps -o pid
+  345  ps -efo pid
+  346  ps -efo pid, uid
+  347  ps -efo pid -o uid -o cmd
+  348  ps -ef -o pid -o uid -o cmps -eo user,pid,ppid,stat,cmd|egrep "(CMD|$$)"
+  349  ps -eo user,pid,ppid,stat,cmd|egrep "(CMD|$$)"
+  350  ps -eo user,pid,cmd|egrep "(CMD|$$)"
+  351  ps -eo user,pid,cmd
+  352  man ps
+  353  mkdir modules
+  354  ls
+  355  cd modules/
+  356  ls
+  357  cd ..
+  358  ls
+  359  pwd
+  360  cd ~
+  361  ls
+  362  ps -eo pid > list
+  363  cat list
+  364  sleep 300 &
+  365  ps -ef | grep 18400
+  366  ps -ef | grep sleep 300
+  367  ps -ef | grep "sleep 300"
+  368  kill 18400
+  369  ps -ef | grep "sleep 300"
+  370  ps -ef | grep 18400
+  371  top
+  372  top -U root
+  373  top
+  374  top -U root
+  375  top -u root
+  376  top
+  377  ping yahoo.com
+  378  tracerroute yahoo.com > yahoo.route
+  379  traceroute yahoo.com > yahoo.route
+  380  cat yahoo.route 
+  381  cat yahoo.route | less
+  382  netstat -a | less
+  383  ps -ef|grep $USER
+  384  ps -ef | grep $USER -i | grep -v root
+  385  ls
+  386  cat route
+  387  cat yahoo.route 
+  388  ln -s yahoo.route route
+  389  ls -l
+  390  ls -l route
+  391  netstat -a > output
+  392  mkdir network
+  393  cat route 
+  394  mv yahoo.route output network
+  395  cd network/
+  396  ls
+  397  cd ..
+  398  cat route
+  399  ls -l
+  400  ls route
+  401  mv route network
+  402  cd network/
+  403  ls
+  404  cat route
+  405  ifconfig -a
+  406  ls modules
+  407  ls
+  408  cd ..
+  409  ls modules
+  410  ls -l
+  411  ls -l modules
+  412  History > modules/willu.20221905.module6
+  413  history > modules/willu.20221905.module6
+  414  cd modules/
+  415  ls
+  416  cat willu.20221905.module6 
+  417  quit
+  418  ls -ltr
+  419  less fixlog20220518184839.log
+  420  ls -ltr
+  421  ps
+  422  man ps
+  423  ps -eaf 
+  424  ps -aux
+  425  ps -eaf | grep ec2-user
+  426  ps -eaf | head 5
+  427  ps -eaf | head -5
+  428  sleep 100 &
+  429  ps -eaf | grep 12689
+  430  sleep 400
+  431  sleep 100 &
+  432  %fg 1
+  433  fg %1
+  434  sleep 100 &
+  435  fg %1
+  436  fg %2
+  437  sleep 100
+  438  ps -eaf | grep sleep
+  439  pstree 12706
+  440  ㎰
+  441  ps -eaf 
+  442  pstree 0
+  443  ls
+  444  echo $?
+  445  ls dhfkifdjsghk
+  446  echo $?
+  447  ls dhjfkhdfk | echo $?
+  448  ls -ltr
+  449  cat module.20220701
+  450  cat module.20220701 | grep history
+  451  cat module.20220701 | grep history | tr -d "module"
+  452  cat module.20220701 | grep history | tr -d "module" | cut -c 1-3
+  453  cat module.20220701 | grep history | tr -d "module" | cut -c 1-34
+  454  cat module.20220701 | grep history | tr -d "module" | cut -c 23-34
+  455  cat module.20220701
+  456  echo "1099  history > module.20220701" | grep history
+  457   
+  458  top
+  459  ping google.com
+  460  traceroute google.com
+  461  ifconfig
+  462  ping google.com
+  463  netstat
+  464  netstat | grep 12343
+  465  ls- ltr
+  466  ls -ltr
+  467  cd TrainingLabProject
+  468  ls -ltr
+  469  cd logs
+  470  ls -ltr
+  471  cd
+  472  df -h
+  473  cd /
+  474  ls -ltr
+  475  du -h
+  476  ls
+  477  du -sh *
+  478  du -sh 
+  479  cd
+  480  ls -ltr
+  481  du -sh MyDirectory
+  482  du -sh TrainingLabProject
+  483  cd TrainingLabProject
+  484  du -h
+  485  du | sort
+  486  df
+  487  cd ./workdir
+  488  ls -ltr
+  489  cat crypto20220116_204631.cfg
+  490  ls -ltr
+  491  gzip crypto20220116_204652.cfg
+  492  ls -ltr
+  493  cat crypto20220116_204652.cfg.gz
+  494  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+  495  ls -ltr
+  496  gzcat crypto20220116_204652.cfg.gz
+  497  zcat crypto20220116_204652.cfg.gz
+  498  ls -ltr
+  499  tar -cvf MyArchive.tar crypto20220116_204644.cfg crypto20220116_204631.cfg 
+  500  ls -ltr
+  501  gzip MyArchive.tar
+  502  ls -ltr
+  503  tar -czvf Myarchive.tar.gz crypto20220116_204644.cfg crypto20220116_204631.cfg 
+  504  ls -ltr
+  505  gzip *
+  506  ls -ltr
+  507  cd JSON
+  508  cd ..
+  509  gunzip MyArchive.tar.gz
+  510  ls -ltr
+  511  tar -xvf MyArchive.tar
+  512  ls -ltr
+  513  rm MyArchive.tar
+  514  tar -cvf MyArchive.tar crypto20220116_204644.cfg crypto20220116_204631.cfg
+  515  ls -ltr
+  516  tar -xvf MyArchive.tar
+  517  ls -ltr
+  518  tar -xvf MyArchive.tar
+  519  echo $?
+  520  ls -ltr
+  521  cat Myarchive.tar.gz
+  522  cd
+  523  ls -ltr
+  524  vi myfilethatiwant
+  525  less fixlog20220518184839.log
+  526  vi avengers
+  527  vi avengers2
+  528  cat avengers2 | wc -l
+  529  wc -l avengers2
+  530  vi avengers2
+  531  netstat -a
+  532  netstat -h
+  533  df
+  534  df -h
+  535  df -h > filesystem.usage
+  536  du
+  537  clear
+  538  du ~ -sh
+  539  du ~ -sh > disk.usage
+  540  ls
+  541  cd mod
+  542  cd modules/
+  543  ls
+  544  cat willu.20221905.module6 
+  545  du -ah > usage2
+  546  du /var -sh
+  547  du ~ -Lch
+  548  clear
+  549  du ~ -Lch
+  550  mkdir disk
+  551  cd disk
+  552  touch test1.txt
+  553  touch test2.txt
+  554  nano test1.txt 
+  555  cat test1.txt 
+  556  nano test2
+  557  nano test2.txt 
+  558  cat test2.txt 
+  559  claer
+  560  clear
+  561  tar -cvf disk.tar ./
+  562  ls
+  563  history > ../modules/module7_q11
+  564  cd ..
+  565  ls
+  566  history > module7_q11
+  567  cd ~
+  568  ls
+  569  ls disk
+  570  cd modules/
+  571  ls
+  572  mv disk ../
+  573  ls
+  574  cd ..
+  575  ls disk
+  576  ls
+  577  cd disk
+  578  tar -xvf disk.tar 
+  579  ls
+  580  tar -cvzf disk.tar.gz ./
+  581  ls
+  582  touch newdisk
+  583  gunzip disk.tar.gz 
+  584  tar -rvf disk.tar newdisk 
+  585  tar -tvf disk.tar 
+  586  gzip -k disk.tar 
+  587  man gzip
+  588  ls
+  589  gunzip -k disk.tar 
+  590  gunzip disk.tar 
+  591  ls
+  592  tar -cvzf disk.tar ./
+  593  ls
+  594  tar -cvzf disk.tar.gz ./
+  595  ls
+  596  tar -tvf disk.tar.gz 
+  597  tar -cvzf disk1.tar.gz ./
+  598  ls
+  599  rm disk1.tar.gz 
+  600  ls
+  601  rm dis.tar.gz
+  602  rm disk.tar.gz
+  603  ls
+  604  gzip disk.tar 
+  605  ls
+  606  mkdir disk_output
+  607  ls
+  608  gzip disk.tar.gz disk_output/
+  609  ls
+  610  tar -xvf disk.tar.gz -C disk_output/
+  611  ls
+  612  cd disk_output/
+  613  ls
+  614  tar -tvf disk.tar.gz
+  615  ls
+  616  cd ..
+  617  ls
+  618  ls disk.tar.gz 
+  619  tar -tvf disk.tar.gz 
+  620  tar -cvzf disk.tar.gz newdisk test1.txt test2.txt 
+  621  ls
+  622  tar -tvf disk.tar.gz 
+  623  tar -xvf disk.tar.gz -C disk_output/
+  624  cd ~
+  625  ls
+  626  ls disk
+  627  cd ..
+  628  gzip -k disk
+  629  gzip disk
+  630  cd disk
+  631  ls
+  632  cd ~
+  633  la
+  634  ls
+  635  cd disk/
+  636  ls
+  637  mv disk_output ../
+  638  ../
+  639  cd ..
+  640  ls
+  641  ls disk
+  642  cd disk_output/
+  643  ls
+  644  cd ../disk
+  645  ls
+  646  mv disk.tar.gz ../disk_output/
+  647  cd ../disk_output/
+  648  ls
+  649  cd ..
+  650  ls
+  651  cd disk
+  652  ls
+  653  cd ..
+  654  ls
+  655  cd disk_output/
+  656  ls
+  657  tar -xvf disk.tar.gz 
+  658  ls
+  659  tar -tvf disk.tar.gz 
+  660  cd ..
+  661  tar -czvf disk_output/
+  662  ls disk_output/
+  663  gzip disk_out
+  664  gzip disk_output/
+  665  gzip -r disk_output/
+  666  ls
+  667  cd disk_output/
+  668  ls
+  669  cd ../modules/
+  670  history > module6_end 
+  671  cd ..
+  672  ls
+  673  ls -ltr
+  674  cd Training(
+  675  cd Train*
+  676  ls- ltr
+  677  ls -ltr
+  678  cd ksh
+  679  ls -ltr
+  680  cat curl_extract.sh
+  681  curl
+  682  cd ..
+  683  ls -ltr
+  684  cd workdir
+  685  ls -ltr
+  686  less crypto20220116_204631.cfg
+  687  cd CSV
+  688  ls -ltr
+  689  less crypto2022_01_16.csv
+  690  cd ..
+  691  ls -ltr
+  692  cd ..
+  693  cd ksh
+  694  ls -ltr
+  695  cat functions.sh
+  696  ls -ltr
+  697  cat python_csv_batch.sh
+  698  cd ..
+  699  ls -ltr
+  700  cd python
+  701  ls -ltr
+  702  cat load_csv.py.bkp
+  703  cat json_convert.py
+  704  cd ..
+  705  ls -ltr
+  706  cd workdir
+  707  ls -ltr
+  708  head -5 crypto20220116_204644.cfg
+  709  less crypto20220116_204644.cfg
+  710  head -10 crypto20220116_204644.cfg
+  711  head -15 crypto20220116_204644.cfg
+  712  head -20 crypto20220116_204644.cfg
+  713  head -25 crypto20220116_204644.cfg
+  714  head -26 crypto20220116_204644.cfg
+  715  head -24 crypto20220116_204644.cfg
+  716  head -24 crypto20220116_204644.cfg | while read line; do echo $line | grep symbol; done
+  717  head -24 crypto20220116_204644.cfg | while read line; do SYMBOL=`echo $line | grep symbol`
+  718  ls -ltr
+  719  ls -ltr | awk '{print$1}'
+  720  ps -eaf 
+  721  ps -eaf | awk '{print$1,$2}'
+  722  ps -eaf | awk '{print$1,$2,$3}'
+  723  ls -ltr
+  724  cd CSV
+  725  ls -ltr
+  726  awk '{print$1}' sic2022_02_26.csv
+  727  ls -ltr
+  728  cd ..
+  729  ls -ltr
+  730  cd
+  731  cd workdir
+  732  ls -ltr
+  733  cd Train*
+  734  ls -ltr
+  735  cd workdir
+  736  ls -ltr
+  737  vi crypto20220116_204644.cfg
+  738  tar -xvf MyArchive.tar 
+  739  less crypto20220116_204631.cfg
+  740  ls- ltr
+  741  ls -ltr
+  742  grep 35=D fixlog20220518173509.log > log2
+  743  grep 35=D fix* > log2
+  744  grep 35=D fix* >> log2
+  745  ls -ltr
+  746  ln fix fixGenerator.sh
+  747  ls -ltr
+  748  touch fix
+  749  ln fix fixGenerator.sh
+  750  rm fix
+  751  ln -s fix fixGenerator.sh
+  752  ln -s fixGenerator.sh fix
+  753  ls -ltr
+  754  grep 35=D fix*
+  755  ls -ltr
+  756  grep 35=D fix
+  757  ls -ltr
+  758  jobs
+  759  sleep 45000 &
+  760  ps -eaf | grep sleep
+  761  ps -eaf | grep 21689
+  762  fg %2
+  763  while true;do echo hello;sleep 15;done &
+  764  fg %8
+  765  ls -ltr
+  766   cd /
+  767  ls -ltr
+  768  pwd
+  769  cd /proc
+  770  ls -ltr
+  771  cd 23253
+  772  ls -ltr
+  773  cd fd
+  774  pwd
+  775  ls -ltr
+  776  ps -eaf | grep 23253
+  777  pwd
+  778  cat 2
+  779  cat 1
+  780  cat 0
+  781  cd /proc/$1/fd
+  782  cd /proc/$!/fd
+  783  ls -ltr
+  784  cd ..
+  785  ls -ltr
+  786  cd ..
+  787  ls -ltr
+  788  cd
+  789  ls -ltr
+  790  ls disk.usage
+  791  ls disk.usage234334
+  792  ls disk.usage >> logfile
+  793  ls disk.usage23432 >> logfile
+  794  cat logfile
+  795  ls disk.usage23432 
+  796  ls disk.usage23432 2> logfile
+  797  cat logfile
+  798  ls disk.usage222432 1> logfile
+  799  cat logfile
+  800  ls disk.usage 1> logfile
+  801  cat logfile
+  802  ls disk.usage 2> logfile
+  803  cat logfile
+  804  ls disk.usage > logfile
+  805  ls disk.usage >> logfile
+  806  ls disk.usage 2>&1 >> logfile
+  807  ls disk.usage3343434 2>&1 >> logfile
+  808  ls -ltr
+  809  ls disk.usage3343434 2&>1 >> logfile
+  810  ls -ltr
+  811  ls disk.usage3343434 2&>1 >> logfile2
+  812  ls -ltr
+  813  ls disk.usage3343434 2&1 >> logfile2
+  814  ls disk.usage3433434 >> logfile
+  815  ls disk.usage23433434
+  816  echo $?
+  817  watch date
+  818  ls -ltr
+  819  ./fixGenerator.sh &
+  820  ls -ltr
+  821  exit
+  822  ls -ltr
+  823  nohup 
+  824  ls -ltr
+  825  cat logfile
+  826  less fixlog20220523152305.log
+  827  head -10 fixlog20220523152305.log
+  828  sed 's/MTHREE/PISARSKI/g'
+  829  sed 's/MTHREE/PISARSKI/g' fixlog20220523152305.log
+  830  sed 's/MTHREE//g' fixlog20220523152305.log
+  831  sed 's/ /blablablablabla/g' fixlog20220523152305.log
+  832  vi fixlog20220523152305.log
+  833  ls -ltr
+  834  cat fixlog20220523152305.log
+  835  echo "8=FIX4.4; 35=8; 34=177; 49=MS; 56=MTHREE; 52=2022-05-23-15:26:12; 151=7243; 55=; 11=C_algo20220523152612; 31=0; 150=4; 39=4;" | tr -d "="
+  836  echo "8=FIX4.4; 35=8; 34=177; 49=MS; 56=MTHREE; 52=2022-05-23-15:26:12; 151=7243; 55=; 11=C_algo20220523152612; 31=0; 150=4; 39=4;" | tr -d "[0-9]"
+  837  read input
+  838  echo $input
+  839  read input
+  840  echo $input | tr -d " "
+  841  echo HELLO | grep -i hello
+  842  echo Hello | grep -i hello
+  843  echo hello | cut -c 1-3
+  844  echo USDEUR0.92022-09-12 | cut -c 1-6
+  845  echo USDEUR0.92022-09-12 | cut -c 7-10
+  846  ls -ltr
+  847  ps -eaf
+  848  ps -eaf | grep ec2-user
+  849  ps -eaf | grep ec2-user | awk '{print$1}'
+  850  ps -eaf | grep ec2-user | awk '{print$2}'
+  851  ps -eaf | grep ec2-user | awk -F':' '{print$2}'
+  852  ps -eaf | grep ec2-user | awk -F':' '{print$1}'
+  853  ps -eaf | grep ec2-user | awk -F':' '{print$1,$2}'
+  854  ps -eaf | grep ec2-user | awk -F':' '{print$1,$2,$4}'
+  855  echo $PATH
+  856  echo $PATH | awk -F':' '{print$1,$2,$4}'
+  857  ls -ltr
+  858  cat logfile
+  859  echo disk.usage >> logfile2
+  860  echo disk.12334 >> logfile2
+  861  ;s =;tr
+  862  ls -ltr
+  863  diff logfile logfile2
+  864  cat logfile
+  865  cat logfile2
+  866  cmp
+  867  man cmp
+  868  comm
+  869  ls -ltr
+  870  comm
+  871  man comm
+  872  cat logfile2
+  873  cat logfile2 | sort
+  874  cat list
+  875  q
+  876  ls -ltr
+  877  cat logfile
+  878  grep disk.usage logfile2
+  879  grep disk logfile2
+  880  grep 12 logfile2
+  881  git
+  882  git clone https://github.com/itspisarski/c237_test.git
+  883  git status
+  884  ls -ltr
+  885  pwd
+  886  cd c237_test
+  887  git status
+  888  touch file.txt
+  889  echo abc > file.txt
+  890  git status
+  891  git add .
+  892  git status
+  893  git commit 
+  894  git commit -m 'First commit on this repository'
+  895  git status
+  896  git push
+  897  git pull
+  898  ls -ltr
+  899  vi file.txt
+  900  git status
+  901  git add .
+  902  git status
+  903  git commit -m "first change on a file"
+  904  git push
+  905  ls -ltr
+  906  touch activity1.sh
+  907  touch acitivity2.sh
+  908  ls -ltr
+  909  mkdir Activity1
+  910  mkdir Activity2
+  911  mkdir Activity3
+  912  ls -ltr
+  913  mv activity1.sh Activity1
+  914  mv acitivity2.sh Activity2
+  915  ls -ltr
+  916  cd Activity1
+  917  ls -ltr
+  918  cd ..
+  919  git status
+  920  git add .
+  921  git status
+  922  git commit -m "third commit"
+  923  git push
+  924  ls -ltr
+  925   
+  926  cd ..
+  927  rm -rf c237_test
+  928  ls -ltr
+  929  git clone https://github.com/itspisarski/c237_test.git
+  930  ls -ltr
+  931  cd c237_test
+  932  ls -ltr
+  933  cd ..
+  934  ls -ltr
+  935  rm "Good Luck Twice"
+  936  ls -ltr
+  937  rm 1
+  938  ls -ltr
+  939  du
+  940  du -sh
+  941  du -ah
+  942  cd disk
+  943  la
+  944  ls
+  945  du
+  946  du -h
+  947  du -ah
+  948  du -ahc
+  949  cd ..
+  950  du -Lh
+  951  du -Lhc
+  952  man du
+  953  vi
+  954  cd modules/
+  955  ls
+  956  cd modules
+  957  ls
+  958  mkdir module8
+  959  cd module8
+  960  ls
+  961  vi newfile
+  962  ls
+  963  cat newfile 
+  964  wc -c newfile 
+  965  wc -w newfile 
+  966  vi newfile
+  967  wc -l newfile 
+  968  vi newfile
+  969  mv newfile williamPu
+  970  ls
+  971  cd ..
+  972  ls
+  973  cd ..
+  974  ./fixGenerator.sh &
+  975  l
+  976  ls
+  977  cat newOrders.log
+  978  ls
+  979  ls -t
+  980  ls -st
+  981  ls -lt
+  982  cat fixlog20220524061045.log 
+  983  grep 35=d fixlog* > logs/neworders.log 
+  984  grep 35=d fixlog20220524061045.log > log 
+  985  cat log
+  986  ls log
+  987  cat fixlog20220524061045.log | grep 35=d
+  988  cat fixlog20220524061045.log | grep 35=D
+  989  grep 35=D fixlog20220524061045.log > log 
+  990  cat log
+  991  vi log
+  992  mv log williampu.log
+  993  mv williampu.log modules/module8
+  994  ls /proc
+  995  ls disk.uscd proc
+  996  cd /proc
+  997  ls
+  998  sleep 200
+  999  echo %!
+ 1000  echo $!
+ 1001  cd /proc
+ 1002  ls
+ 1003  sleep 1
+ 1004  git
+ 1005  cd ~
+ 1006  sleep 10
+ 1007  sleep 500 &
+ 1008  sleep 700 &
+ 1009  ps -eaf
+ 1010  jobs
+ 1011  fg %2
+ 1012  jobs
+ 1013  fg %1
+ 1014  sleep 10; echo hello world
+ 1015  sleep 10 && echo hello world
+ 1016  sleep 10 && echo hello world &
+ 1017  sleep 5; man ls
+ 1018  ./fixGenerator.sh &
+ 1019  ls -l
+ 1020  ls -lt
+ 1021  ls -ltr
+ 1022  cat fixlog20220524191941.log 
+ 1023  grep -v 35=D fixlog20220524191941.log 
+ 1024  grep -v 35=D fixlog20220524191941.log > fixlog.log
+ 1025  grep 35=D fixlog.log || grep 35=8 fixlog.log
+ 1026  grep 35=D fixlog.log 
+ 1027  grep 35=D fixlog.log | echo
+ 1028  grep 35=D fixlog.log 
+ 1029  $?
+ 1030  grep 35=D fixlog.log $?
+ 1031  grep 35=D fixlog.log 
+ 1032  watch date
+ 1033  ./fixGenerator.sh &
+ 1034  ls -ltr
+ 1035  watch "wc -l fixlog20220524234606.log"
+ 1036  watch wc -l fixlog20220524234606.log
+ 1037  history > modules/20220524.module9

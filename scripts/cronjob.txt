@@ -1,0 +1,1 @@
+0 6 * * 1-5 ~/C237/scripts/willu-scripting-activity15.sh
